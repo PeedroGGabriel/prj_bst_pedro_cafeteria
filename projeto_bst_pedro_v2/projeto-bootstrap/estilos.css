@@ -1,0 +1,105 @@
+body {
+  --bege: red;
+  --preto:green;
+
+  font-family: 'Barlow', sans-serif;
+  
+  height: 0px; /* Aumentar o tamanho da tela para aparecer a barra de rolagem */
+}
+
+input[type=checkbox] {
+  border: 2px solid var(--preto);
+  box-shadow: none;
+}
+
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--preto);
+  border-color: var(--preto);
+  box-shadow: none;
+  outline: none;
+}
+
+.banners-1{
+  background-image: url(./assets/wpp.jpg);
+}
+
+.banners{
+/* Para a imagem da classe .banners-1 ser exibida é necessário definir width e height */
+width: 100%;
+height: 50vh;
+/* Para a imagem não se repetir */
+background-repeat: no-repeat; 
+/* para a imagem ocupar todo o espaço da tela */
+background-size: cover;
+/* para centralizar a imagem */
+background-position: center;
+/* A tela foi aumentanda para height de 4000px, aparecerá a barra de rolagem, então para fixar a imagem (chaamado de Parallax) */
+background-attachment: fixed;
+}
+
+.banners-titulo {
+  /* testar a opacidade com valores 0, 1 também */
+  --bs-bg-opacity: .5;
+}
+
+.banner-2{
+  background-image: url(./assets/wpp.jpg);
+}
+
+.banner-3{
+  background-image: url(./assets/banner-3.png);
+}
+
+.navbar-brand{
+  width: 50%;
+}
+
+.py-5 {
+  background-color: black;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.nav-link {
+  color: blue;
+}
+
+header {
+  background-color: black;
+}
+
+.fw-bold{
+  color: blue;
+}
+
+.card {
+  background-color: cornflowerblue;
+}
+
+.card-title {
+  color: white;
+}
+
+.btn {
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+.cor-letrinha {
+  color: white;
+}
+
+.p-3 {
+  background-color: black;
+}
+
+.py-4 {
+  background-color: black;
+  color: white;
+}
